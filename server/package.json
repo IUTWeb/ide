@@ -1,0 +1,51 @@
+{
+  "name": "ide",
+  "version": "0.1.0",
+  "description": "an online ide",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "lint": "eslint .",
+    "unit": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IUTWeb/ide.git"
+  },
+  "keywords": [
+    "ide",
+    "code",
+    "coding"
+  ],
+  "author": "IUT Web Chapter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IUTWeb/ide/issues"
+  },
+  "homepage": "https://github.com/IUTWeb/ide#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "faker": "^4.1.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.14.3",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.1"
+  }
+}
