@@ -1,5 +1,5 @@
 <template>
-  <div id="file-tree"></div>
+  <div id="file-tree" />
 </template>
 
 <script>

@@ -1,12 +1,12 @@
 <template>
-  <div  id="code-editor" >
+  <div id="code-editor" >
     <editor
       v-model="code"
       theme="twilight"
       width="100%"
       height="100%"
       @init="init"
-      v-bind:lang="lang"
+      :lang="lang"
     />
   </div>
 </template>
